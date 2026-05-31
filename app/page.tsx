@@ -9,6 +9,7 @@ import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import FadeIn from "./components/FadeIn";
+import ThreeDSectionClient from "./components/ThreeDSectionClient";
 
 export default function Home() {
   return (
@@ -18,8 +19,29 @@ export default function Home() {
       <FadeIn delay={0.1}><Hero /></FadeIn>
       <FadeIn delay={0.2}><About /></FadeIn>
       <FadeIn delay={0.25}><Skills /></FadeIn>
+
+      {/* 3D Showcase Section */}
+      <FadeIn delay={0.3}><ThreeDSectionClient /></FadeIn>
+
+      {/* Section divider */}
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="section-divider my-4" />
+      </div>
+
       <FadeIn delay={0.3}><Projects /></FadeIn>
+
+      {/* Section divider */}
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="section-divider my-4" />
+      </div>
+
       <FadeIn delay={0.35}><Certificates /></FadeIn>
+
+      {/* Section divider */}
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="section-divider my-4" />
+      </div>
+
       <FadeIn delay={0.4}><Gallery /></FadeIn>
       <FadeIn delay={0.5}><Contact /></FadeIn>
       <Footer />
