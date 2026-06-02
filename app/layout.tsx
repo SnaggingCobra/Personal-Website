@@ -9,12 +9,17 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://prajwolgyawali.vercel.app"),
+
   title: "Prajwol Gyawali | BSc CSIT Student & Developer",
-  description: "I am a 17-year-old BSc CSIT undergraduate student, artist, and web developer from Bardiya, Nepal. Explore my projects and background.",
+  description:
+    "I am a 17-year-old BSc CSIT undergraduate student, artist, and web developer from Bardiya, Nepal. Explore my projects and background.",
+
   openGraph: {
     title: "Prajwol Gyawali | Portfolio",
-    description: "I am a 17-year-old BSc CSIT undergraduate student, artist, and web developer from Bardiya, Nepal.",
-    url: "https://your-portfolio-url.com",
+    description:
+      "I am a 17-year-old BSc CSIT undergraduate student, artist, and web developer from Bardiya, Nepal.",
+    url: "https://prajwolgyawali.vercel.app",
     siteName: "Prajwol Gyawali",
     images: [
       {
@@ -27,28 +32,12 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Prajwol Gyawali | Portfolio",
-    description: "I am a 17-year-old BSc CSIT undergraduate student, artist, and web developer from Bardiya, Nepal.",
+    description:
+      "I am a 17-year-old BSc CSIT undergraduate student, artist, and web developer from Bardiya, Nepal.",
     images: ["/images/profile.jpeg"],
   },
 };
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html
-      lang="en"
-      className={`${outfit.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col font-sans" suppressHydrationWarning>
-        <MouseGlow />
-        {children}
-      </body>
-    </html>
-  );
-}
