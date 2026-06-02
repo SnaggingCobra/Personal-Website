@@ -13,38 +13,35 @@ import ThreeDSectionClient from "./components/ThreeDSectionClient";
 
 export default function Home() {
   return (
-    <main className="min-h-full text-slate-100 relative">
-      <Cursor />
-      <Navbar />
-      <FadeIn delay={0.1}><Hero /></FadeIn>
-      <FadeIn delay={0.2}><About /></FadeIn>
-      <FadeIn delay={0.25}><Skills /></FadeIn>
+    <main>
+      <h1>Prajwol Gyawali</h1>
 
-      {/* 3D Showcase Section */}
-      <FadeIn delay={0.3}><ThreeDSectionClient /></FadeIn>
+      <p>
+        I am a Web Developer from Nepal specializing in Next.js, React, and
+        modern web applications.
+      </p>
 
-      {/* Section divider */}
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="section-divider my-4" />
-      </div>
+      <section>
+        <h2>About Me</h2>
+        <p>
+          I am a BSc CSIT student, passionate about web development, UI design,
+          and building modern interactive experiences.
+        </p>
+      </section>
 
-      <FadeIn delay={0.3}><Projects /></FadeIn>
+      <section>
+        <h2>Projects</h2>
 
-      {/* Section divider */}
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="section-divider my-4" />
-      </div>
+        <div>
+          <h3>Portfolio Website</h3>
+          <p>Built using Next.js and deployed on Vercel.</p>
+        </div>
 
-      <FadeIn delay={0.35}><Certificates /></FadeIn>
-
-      {/* Section divider */}
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="section-divider my-4" />
-      </div>
-
-      <FadeIn delay={0.4}><Gallery /></FadeIn>
-      <FadeIn delay={0.5}><Contact /></FadeIn>
-      <Footer />
+        <div>
+          <h3>Other Project</h3>
+          <p>Describe your second project here.</p>
+        </div>
+      </section>
     </main>
   );
 }
