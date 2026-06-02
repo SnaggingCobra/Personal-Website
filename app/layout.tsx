@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
 import MouseGlow from "./components/MouseGlow";
+import { Analytics } from "@vercel/analytics/next";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -41,3 +42,19 @@ export const metadata: Metadata = {
     images: ["/images/profile.jpeg"],
   },
 };
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" className={outfit.variable}>
+      <body>
+        <MouseGlow />
+        {children}
+        <Analytics />
+      </body>
+    </html>
+  );
+}
