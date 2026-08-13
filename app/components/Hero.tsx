@@ -49,14 +49,14 @@ export default function Hero() {
 					Prajwol Gynawali
 				</h1>
 				<p className="mt-4 text-lg text-indigo-200 max-w-xl">
-					I am a 17-year-old undergraduate CS student majoring in BSc CSIT. I
+					I am a 18-year-old undergraduate CS student majoring in BSc CSIT. I
 					build intelligent web tools for students with clean design, fast
 					performance, and user-friendly interfaces.
 				</p>
 				<div className="mt-5 grid gap-3 sm:grid-cols-3">
 					<div className="rounded-3xl glass-panel-light p-4 text-sm text-slate-300">
 						<span className="block text-xs uppercase tracking-[0.3em] text-indigo-300">Age</span>
-						17 years old
+						18 years old
 					</div>
 					<div className="rounded-3xl glass-panel-light p-4 text-sm text-slate-300">
 						<span className="block text-xs uppercase tracking-[0.3em] text-indigo-300">Degree</span>
@@ -64,7 +64,8 @@ export default function Hero() {
 					</div>
 					<div className="rounded-3xl glass-panel-light p-4 text-sm text-slate-300">
 						<span className="block text-xs uppercase tracking-[0.3em] text-indigo-300">Focus</span>
-						Student-centric web products
+							Build, code, create, 
+						learn, innovate, compete, grow.
 					</div>
 				</div>
 
