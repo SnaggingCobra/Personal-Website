@@ -6,7 +6,7 @@ export default function About() {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-4 text-white">About</h2>
         <p className="text-slate-300 mb-8 leading-relaxed text-lg">
-          I am a 17-year-old BSc CSIT undergraduate student originally from Bardiya, Nepal. 
+          I am a 18-year-old BSc CSIT undergraduate student originally from Bardiya, Nepal. 
           Beyond coding, I am an artist at heart with a strong passion for <span className="text-indigo-300">Photography</span>, 
           <span className="text-indigo-300"> Music</span>, and <span className="text-indigo-300">Travelling</span>. 
           I love blending my creative side with technical skills to build intelligent, beautiful web experiences.
