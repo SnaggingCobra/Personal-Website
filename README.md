@@ -55,7 +55,7 @@ Edit the site content by updating the components in the `app` folder, for exampl
 
 **Contact**
 
-- Email: gyawali.prajwol65@gmail.com
+- Email: contact@prajwolgynawali.com.np
 - Socials: LinkedIn, Facebook, Instagram (linked from the hero section)
 
 **Deploy**

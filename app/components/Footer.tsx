@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col gap-4 md:flex-row md:justify-between md:items-center text-slate-400 text-sm">
         <div>© {new Date().getFullYear()} Prajwol Gynawali</div>
         <div className="flex flex-wrap gap-4 items-center">
-          <a href="mailto:gyawali.prajwol65@gmail.com" className="hover:text-white transition">gyawali.prajwol65@gmail.com</a>
+          <a href="mailto:contact@prajwolgynawali.com.np" className="hover:text-white transition">contact@prajwolgynawali.com.np</a>
           <a href="#contact" className="underline text-indigo-300 hover:text-indigo-200">Contact</a>
         </div>
       </div>

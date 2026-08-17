@@ -74,7 +74,7 @@ export default function Hero() {
 						Work with me
 						<div className="absolute inset-0 rounded-full border border-white/40 pointer-events-none scale-100 group-hover:scale-110 opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
 					</a>
-					<a href="mailto:gyawali.prajwol65@gmail.com" className="inline-flex items-center justify-center rounded-full border border-slate-600 px-6 py-3 text-sm text-slate-100 transition hover:border-indigo-400 hover:text-white">
+					<a href="mailto:contact@prajwolgynawali.com.np" className="inline-flex items-center justify-center rounded-full border border-slate-600 px-6 py-3 text-sm text-slate-100 transition hover:border-indigo-400 hover:text-white">
 						Email me
 					</a>
 				</div>

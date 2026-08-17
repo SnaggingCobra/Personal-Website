@@ -19,7 +19,7 @@ export default function Contact() {
           <h2 className="text-3xl font-bold mb-4 text-white">Let’s build it.</h2>
           <p className="text-slate-400 mb-6">Reach out to discuss your next student-focused web experience or internship collaboration.</p>
           <div className="space-y-4 text-slate-300 text-sm">
-            <p><span className="font-semibold text-white">Email:</span> gyawali.prajwol65@gmail.com</p>
+            <p><span className="font-semibold text-white">Email:</span> contact@prajwolgynawali.com.np</p>
             <p><span className="font-semibold text-white">Location:</span> Nepal</p>
             <p><span className="font-semibold text-white">Availability:</span> Internship / freelance / collaboration</p>
           </div>

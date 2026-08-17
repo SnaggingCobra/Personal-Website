@@ -78,6 +78,7 @@ const certificates = [
     image: "/images/certificate/CS50.jpg",
     tag: "Computer Science",
   },
+
 ];
 
 const INITIAL_SHOW = 3;
