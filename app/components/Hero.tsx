@@ -62,11 +62,7 @@ export default function Hero() {
 						<span className="block text-xs uppercase tracking-[0.3em] text-indigo-300">Degree</span>
 						BSc CSIT
 					</div>
-					<div className="rounded-3xl glass-panel-light p-4 text-sm text-slate-300">
-						<span className="block text-xs uppercase tracking-[0.3em] text-indigo-300">Focus</span>
-							Build, code, create, 
-						learn, innovate, compete, grow.
-					</div>
+					
 				</div>
 
 				<div className="mt-8 flex flex-wrap gap-4 items-center">
